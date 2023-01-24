@@ -1,0 +1,79 @@
+@import url(menu.css);
+@import url(banner.css);
+@import url(cv_estilo.css);
+@import url(formulario.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+:root {
+    --azul-oscuro: #181d29;
+    --azul: #222630;
+    --azul-claro: #3a3e48;
+    --tostado: #b3927c;
+    --beige: #c9aa93;
+    --bordo: #EF2121;
+    --blanco: #fff;
+    --blanco-marfil: #FFFFF0;
+    --negro: #000000;
+    --verde-limon: greenyellow;
+}
+
+section[id] {
+    scroll-margin-top: 50px;
+}
+
+html{
+    background-color:var(--blanco-marfil);
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+a {
+    text-decoration: none;
+    color: var(--blanco-marfil);
+  }
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+section {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* footer */
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: var(--azul);
+    justify-content: center;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    margin: 0;
+}
+.copy {
+    font-size: 17px;
+    color: var(--blanco-marfil);
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.sociales a {
+    color: var(--blanco-marfil);
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: lighter;
+}

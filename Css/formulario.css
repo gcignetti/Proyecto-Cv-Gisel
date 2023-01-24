@@ -1,0 +1,137 @@
+:root {
+    --azul-oscuro: #181d29;
+    --azul: #222630;
+    --azul-claro: #3a3e48;
+    --tostado: #b3927c;
+    --beige: #c9aa93;
+    --bordo: #EF2121;
+    --blanco: #fff;
+    --negro: #000000;
+    --verde-limon: greenyellow;
+}
+
+.formulario {
+    display: grid;
+    background-color: var(--azul-oscuro);
+    margin-top: 3em;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    
+}
+.formulario h1 {
+    color: var(--blanco);
+    text-align: center;
+    margin: 1em;
+    padding: 0.5em;
+    border-bottom: 1px solid var(--verde-limon);
+}
+
+.contenedor-form{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contenedor-form > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background-color: var(--azul-claro);
+    color: var(--blanco);
+}
+
+.contact-form form {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: var(--blanco);
+    border-bottom: 1px solid var(--bordo);
+    margin-bottom: .5em;
+    font-size: 12px;
+}
+
+.contact-form form button {
+    background: var(--bordo);
+    border: 0;
+    padding: 1.1em;
+}
+
+.contact-form form textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-height: 100%;
+    resize: none;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: var(--beige);
+    color: var(--azul-oscuro);
+    cursor: pointer;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contact-info{
+    background-color: var(--azul-oscuro);
+    color: white;
+}
+
+.contact-info h3,
+.contact-info ul {
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+.contact-info ul li {
+    padding: .1em;
+}
+
+/*Para dispositivos LARGE*/
+
+@media (min-width: 780px) {
+    .formulario{
+        padding: 0.4rem;
+    }
+
+    .contenedor-form{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contenedor-form > * {
+        padding: 2em;
+    }
+
+    .contact-info h4,
+    .contact-info ul {
+        padding: 1em;
+        text-align: left;
+    }
+
+    .contact-info ul li {
+        padding: 0.5em;
+    }
+
+    .contact-form form button,
+    .contact-form form input,
+    .contact-form form textarea {
+        font-size: 15px;
+        font-weight: lighter;
+}
+
+}

@@ -1,0 +1,44 @@
+#banner {
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#banner .contenedor {
+    width: 98%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #EF2121;  
+}
+
+#banner h1 {
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+
+#banner h3 {
+    font-size: 25px;
+    margin-left: 100px;
+    font-weight: lighter;
+}
+
+@media (min-width: 780px) {
+    #banner h3 {
+        font-size: 28px;
+        font-weight: lighter;
+        color: #222630;
+    }
+
+    #banner h1 {
+        font-size: 33px;
+        color: #181d29;
+    }
+}
