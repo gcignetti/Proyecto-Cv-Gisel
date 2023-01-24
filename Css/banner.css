@@ -16,29 +16,42 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    color: #EF2121;  
+    color: var(--rojo);  
 }
 
 #banner h1 {
     text-transform: uppercase;
-    margin-left: 100px;
+    text-align: center;
 }
 
 #banner h3 {
     font-size: 25px;
-    margin-left: 100px;
+    text-align: center;
     font-weight: lighter;
 }
 
 @media (min-width: 780px) {
     #banner h3 {
         font-size: 28px;
-        font-weight: lighter;
-        color: #222630;
+        color: var(--azul);
+        text-align: left;
+        padding-left: 24px;
     }
 
     #banner h1 {
         font-size: 33px;
-        color: #181d29;
+        color: var(--azul-oscuro);
+        text-align: left;
+        padding-left: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #banner h3 {
+        padding-left: 100px;
+    }
+
+    #banner h1 {
+        padding-left: 100px;
     }
 }

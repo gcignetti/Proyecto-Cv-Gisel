@@ -1,15 +1,3 @@
-:root {
-    --azul-oscuro: #181d29;
-    --azul: #222630;
-    --azul-claro: #3a3e48;
-    --tostado: #b3927c;
-    --beige: #c9aa93;
-    --bordo: #EF2121;
-    --blanco: #fff;
-    --blanco-marfil: #FFFFF0;
-    --negro: #000000;
-    --verde-limon: greenyellow;
-}
 
 .topheader {
     box-shadow: 0 4px 5px var(--azul-claro);
@@ -91,7 +79,7 @@
   }
   
   
-  @media (max-width: 950px) {
+  @media (max-width: 780px) {
     .menu {
       flex-direction: column;
       position: fixed;

@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?71611304');
-  src: url('../font/fontello.eot?71611304#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?71611304') format('woff2'),
-       url('../font/fontello.woff?71611304') format('woff'),
-       url('../font/fontello.ttf?71611304') format('truetype'),
-       url('../font/fontello.svg?71611304#fontello') format('svg');
+  src: url('../font/fontello.eot?33938113');
+  src: url('../font/fontello.eot?33938113#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?33938113') format('woff2'),
+       url('../font/fontello.woff?33938113') format('woff'),
+       url('../font/fontello.ttf?33938113') format('truetype'),
+       url('../font/fontello.svg?33938113#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?71611304#fontello') format('svg');
+    src: url('../font/fontello.svg?33938113#fontello') format('svg');
   }
 }
 */
@@ -55,20 +55,16 @@
 }
 
 .icon-facebook-circled:before { content: '\e800'; } /* '' */
-.icon-menu-1:before { content: '\e801'; } /* '' */
 .icon-twitter:before { content: '\e802'; } /* '' */
 .icon-mail:before { content: '\e803'; } /* '' */
 .icon-mobile:before { content: '\e804'; } /* '' */
-.icon-phone:before { content: '\e805'; } /* '' */
 .icon-graduation-cap:before { content: '\e806'; } /* '' */
 .icon-lamp:before { content: '\e807'; } /* '' */
 .icon-briefcase:before { content: '\e808'; } /* '' */
-.icon-attach:before { content: '\e809'; } /* '' */
 .icon-book-open:before { content: '\e80a'; } /* '' */
-.icon-user:before { content: '\e80b'; } /* '' */
 .icon-info:before { content: '\e80c'; } /* '' */
 .icon-at:before { content: '\e80d'; } /* '' */
 .icon-location-outline:before { content: '\e80e'; } /* '' */
-.icon-cancel:before { content: '\e80f'; } /* '' */
+.icon-linkedin:before { content: '\e810'; } /* '' */
 .icon-insta:before { content: '\f16d'; } /* '' */
 .icon-gplus:before { content: '\f30f'; } /* '' */
